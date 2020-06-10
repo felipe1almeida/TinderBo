@@ -35,11 +35,11 @@ namespace Tinder
 
         //     IWebElement emailFb = driver.FindElement(By.XPath("//input[@id='email']"));
         //     emailFb.Click();
-        //     emailFb.SendKeys("ela_ta_kerendo_o_meu_msn@hotmail.com");
+        //     emailFb.SendKeys("");
         //     Thread.Sleep(500);
         //     IWebElement senhaFb = driver.FindElement(By.XPath("//input[@id='pass']"));
         //     senhaFb.Click();
-        //     senhaFb.SendKeys("104420 Novo @");
+        //     senhaFb.SendKeys("");
         //     Thread.Sleep(300);
         //     IWebElement BtnLogin = driver.FindElement(By.XPath("//input[@id='u_0_0']"));
         //     BtnLogin.Click();
@@ -53,7 +53,7 @@ namespace Tinder
         // Thread.Sleep(500);
         // IWebElement CampoTelefone = driver.FindElement(By.XPath("//input[@name='phone_number']"));
         // CampoTelefone.Click();
-        // CampoTelefone.SendKeys("27997695346");
+        // CampoTelefone.SendKeys("");
         // Thread.Sleep(500);
 
         // IWebElement confirmaLoginTelefone = driver.FindElement(By.XPath("//span[@class='Pos(r) Z(1)'][contains(text(),'Continuar')]"));
@@ -73,7 +73,7 @@ namespace Tinder
         // IWebElement minhaConta = driver.FindElement(By.XPath("//div[@class='w1I7fb']")); // Caso a conta já esteja salva
         IWebElement minhaConta = driver.FindElement(By.XPath("//input[@id='identifierId']"));
         minhaConta.Click();
-        minhaConta.SendKeys("felipe.10.10@hotmail.com");
+        minhaConta.SendKeys("");
         Thread.Sleep(800);
 
         IWebElement btnAvacar = driver.FindElement(By.XPath("//span[contains(text(),'Próxima')]"));
@@ -83,7 +83,7 @@ namespace Tinder
         IWebElement minhaContaSenha = driver.FindElement(By.XPath("//input[@name='password']"));
         minhaContaSenha.Click();
         Thread.Sleep(200);
-        minhaContaSenha.SendKeys("104420 Novo @");
+        minhaContaSenha.SendKeys("");
         Thread.Sleep(200);
 
         IWebElement minhaContaLogin = driver.FindElement(By.XPath("//span[contains(text(),'Próxima')]"));
