@@ -95,7 +95,7 @@ namespace Tinder
         // Thread.Sleep(500);
         // IWebElement CampoTelefone = driver.FindElement(By.XPath("//input[@name='phone_number']"));
         // CampoTelefone.Click();
-        // CampoTelefone.SendKeys("27997695346");
+        // CampoTelefone.SendKeys("");
         // Thread.Sleep(500);
 
         // IWebElement confirmaLoginTelefone = driver.FindElement(By.XPath("//span[@class='Pos(r) Z(1)'][contains(text(),'Continuar')]"));
