@@ -4,11 +4,12 @@ C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\Tinder.runtimeconfig.js
 C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\Tinder.runtimeconfig.dev.json
 C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\Tinder.dll
 C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\Tinder.pdb
+C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\Felipe\Documents\Tinder\obj\Debug\netcoreapp3.1\Tinder.csprojAssemblyReference.cache
 C:\Users\Felipe\Documents\Tinder\obj\Debug\netcoreapp3.1\Tinder.AssemblyInfoInputs.cache
 C:\Users\Felipe\Documents\Tinder\obj\Debug\netcoreapp3.1\Tinder.AssemblyInfo.cs
+C:\Users\Felipe\Documents\Tinder\obj\Debug\netcoreapp3.1\Tinder.csproj.CopyComplete
 C:\Users\Felipe\Documents\Tinder\obj\Debug\netcoreapp3.1\Tinder.dll
 C:\Users\Felipe\Documents\Tinder\obj\Debug\netcoreapp3.1\Tinder.pdb
-C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Felipe\Documents\Tinder\bin\Debug\netcoreapp3.1\WebDriver.dll
-C:\Users\Felipe\Documents\Tinder\obj\Debug\netcoreapp3.1\Tinder.csproj.CopyComplete
