@@ -11,7 +11,6 @@ namespace Tinder
         {
             IWebDriver driver = new ChromeDriver();            
             AutoLike(driver);
-            // LerSenha();
         }
 
         public static void AcessaTinder(IWebDriver driver)
@@ -106,6 +105,10 @@ namespace Tinder
         
         public static void LoginGoogle(IWebDriver driver)
         {
+            string[] lines = System.IO.File.ReadAllLines(@"password.txt");
+            string UserLogin = lines[0];
+            string UserPassword = lines[1];
+
             Thread.Sleep(3500);
             IWebElement loginGoogle = driver.FindElement(By.XPath("//span[contains(text(),'Entrar com o Google')]"));
             loginGoogle.Click();
@@ -116,7 +119,7 @@ namespace Tinder
             // IWebElement minhaConta = driver.FindElement(By.XPath("//div[@class='w1I7fb']")); // Caso a conta já esteja salva
             IWebElement minhaConta = driver.FindElement(By.XPath("//input[@id='identifierId']"));
             minhaConta.Click();
-            minhaConta.SendKeys("");
+            minhaConta.SendKeys(UserLogin);
             Thread.Sleep(1500);
 
             IWebElement btnAvacar = driver.FindElement(By.XPath("//span[contains(text(),'Próxima')]"));
@@ -126,7 +129,7 @@ namespace Tinder
             IWebElement minhaContaSenha = driver.FindElement(By.XPath("//input[@name='password']"));
             minhaContaSenha.Click();
             Thread.Sleep(800);
-            minhaContaSenha.SendKeys("");
+            minhaContaSenha.SendKeys(UserPassword);
             Thread.Sleep(1200);
 
             IWebElement minhaContaLogin = driver.FindElement(By.XPath("//span[contains(text(),'Próxima')]"));
@@ -201,17 +204,5 @@ namespace Tinder
 
             return n;
         }
-
-        public static string LerSenha()
-        {
-            string[] lines = System.IO.File.ReadAllLines(@"password.txt");
-
-            string email = lines[0];
-            string senha = lines[1];           
-
-            return email;
-        }
-
-
     }
 }

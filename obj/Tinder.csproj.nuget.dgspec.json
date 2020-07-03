@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Documents\\Tinder\\Tinder.csproj": {}
+    "C:\\Users\\Felipe\\Documents\\[Codes]\\Tinder\\Tinder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Documents\\Tinder\\Tinder.csproj": {
+    "C:\\Users\\Felipe\\Documents\\[Codes]\\Tinder\\Tinder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Documents\\Tinder\\Tinder.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe\\Documents\\[Codes]\\Tinder\\Tinder.csproj",
         "projectName": "Tinder",
-        "projectPath": "C:\\Users\\Felipe\\Documents\\Tinder\\Tinder.csproj",
+        "projectPath": "C:\\Users\\Felipe\\Documents\\[Codes]\\Tinder\\Tinder.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Documents\\Tinder\\obj\\",
+        "outputPath": "C:\\Users\\Felipe\\Documents\\[Codes]\\Tinder\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -67,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
